@@ -5,7 +5,7 @@
 body{
     font-family: 'DynaPuff', cursive;
     background-color: #000;
-    margin-top: 3rem;
+    
     display: flex;
     gap: 3rem;
     flex-direction: column;
