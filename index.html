@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Guess The Number Game MAde By Mohammed Lahboub @dataassert">
+<!-- open graph tags -->
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Guess The Number Game" />
+    <meta property="og:description" content="Just Made MY first JavaScript Project. It's a Game !!" />
+    <meta property="og:url" content="https://mohammedlahboub.github.io/Guess-The-Number/" />
+    <meta property="og:image" content="" />
+<!-- twitter tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@dataassert" />
+    <meta name="twitter:creator" content="@dataassert" >
+    <meta name="twitter:title" content="Guess The Number Game JavaScript Project." />
+    <meta name="twitter:description" content="Just Made MY first JavaScript Project. It's a Game !!" />
+    <meta name="twitter:image" content="" />
+
+<!-- filles / fonts -->
+    <link rel="shortcut icon" href="./Images/NotAfavicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./Styles/style.css">
+    <script defer src="./App/main.js"></script>
+    <title>Guess The Number | Mohammed Lahboub @dataassert</title>
+</head>
+<body>
+    <main>
+        <div class="desc">
+        <h1>Guess The Number</h1>
+        <ul>
+             <li>We have selected a random number between <span> 1</span> and <span> 100</span> .</li>
+             <li>See if you can guess it in <span>10</span> turns or fewer .</li>
+             <li>We'll tell you if your guess was too <span style="color:rgb(32, 241, 88) ; font-size: 2.5rem;" >High</span> or too <span style="color: red; font-size: 1.5rem;">Low</span> .</li>
+        </ul>
+    </div>
+    <article title="Guess The Number Game"  class="game">
+            <div title="Wins / losses" class="score">
+                <p class="won blackbg">Wins : </p>
+                <p class="lost blackbg">Losses : </p>
+            </div>
+            <div class="lastResultC"><h2  class="lastResult">Enter A Guess</h2></div>
+            <div class="svgc"><h2 title="too low" class="tooLow">!!! Too<br>&nbsp; &nbsp; &nbsp;LOW !!!</h2></div>
+            <div class="form">
+                <input type="number" placeholder="_ _ " max="100" min="1"  required id="guessField" class="guessField blackbg">
+                <input id="guessSubmit" title="Guess" type="submit" value="">
+            </div>
+            <div class="svgc"><h2 title="too high" class="tooHigh">!!! Too<br>&nbsp; &nbsp; &nbsp;High !!! </h2></div>
+            <div class="resetContainer">
+                <button title="Replay"></button>
+            </div>
+            <div title="Previous Guesses" class="previousGuesses">
+                <p class="previous">Previous Guesses :</p>
+                <p class="guesses "></p>
+            </div>
+    </article>
+    
+    </main>
+    <footer>
+        <p>Made with <span> &nbsp;♥&nbsp;</span> by  <span>&nbsp; M</span>ohammed Lahboub &nbsp;&nbsp;<a rel=noopener
+           target="_blank" title="Follow me Twitter" href= "https://twitter.com/dataassert"><span style="color:rgb(36, 191, 251) ;">@dataassert .</span></a>&nbsp;&nbsp;&nbsp;<a target="_blank" title="Github Repository" href="https://github.com/mohammedlahboub/Guess-The-Number"><span style="color:rgb(185, 185, 185) ;">Github .</span></a></p>
+    </footer>
+</body>
+</html>
