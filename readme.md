@@ -1,5 +1,4 @@
 #### Live Site : [Here](https://mohammedlahboub.github.io/Guess-The-Number/)
-#### Follow Me On Twitter [@DataAssert](https://www.twitter.com/dataassert)
 
 ## Game Screen :
 ![](/Images/game.png)
